@@ -1,0 +1,9 @@
+{
+	"description": "Discard log driver -- for testing purposes only -- discards all log messages",
+	"documentation": "-",
+	"entrypoint": ["/docker-logdriver-discard"],
+	"interface": {
+		"types": ["docker.logdriver/1.0"],
+		"socket": "logdiscard.sock"
+	}
+}
